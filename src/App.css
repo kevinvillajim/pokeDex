@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main{
+  height: 100%;
+
+}
+
+#content {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  width: 100%;
+}
+
+
+
+#pokedex{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 10px;
+  padding: 0;
+}
+
+form > input {
+  font-size: 1rem;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+form > div > button {
+  font-size: 1.3rem;
+  border: 0;
+  background-color: rgb(145, 67, 67);
+  margin: 3px;
+  align-items: center;
+}
+
+#card{
+  height: 15%;
+  width: 15%;
+  text-align: center;
+  border-radius: 5%;
+  margin: 5px;
+}
+
+.fire{
+  background-color: #ffab67;
+  color: rgb(79, 42, 0);
+}
+
+.bug{
+  background-color: #98da62;
+  color: rgb(0, 51, 11);
+}
+
+.electric {
+  background-color: #cfbb22;
+  color: #282600;
+}
+
+.grass {
+  background-color: #086841;
+  color: #00321e;
+}
+
+.water {
+  background-color: #496fd0;
+  color: #0a0035;
+}
+
+.normal {
+  background-color: #ffaeae;
+  color: #5d3432;
+}
+
+.poison {
+  background-color: #5a3f97;
+  color: #221d36;
+}
+
+.ground {
+  background-color: #6d4b22;
+  color: #231100;
+}
+
+.fairy {
+  background-color: #ff6a6a;
+  color: #582727;
+}
+
+.psychic {
+  background-color: #a93333;
+  color: #351515;
+}
+
+.fighting {
+  background-color: #250a0a;
+  color: #1f0707;
+}
+
+.rock {
+  background-color: #2d2d2d;
+  color: #282828;
+}
+
+.ghost {
+  background-color: #170633;
+  color: #380059;
+}
+
+.dragon {
+  background-color: #b1b1b1;
+  color: #151515;
+}
+
+.ice {
+  background-color: #93c3cb;
+  color: #0a0d20;
+}
+
+
+#card > div:first-child{
+  height: 75%;
+  background-color: antiquewhite;
+  padding: 5px;   
+}
+
+#card > div:last-child {
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .2rem;
+  padding: 5px;
+}
+
+#imgPokemon {
+  height: 100%;
+  width: auto;
+}
