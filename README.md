@@ -1,5 +1,5 @@
 
-[Proyecto Terminado](https://github.com/kevinvillajim/pokeDex)
+[Proyecto Terminado](https://kevinvillajim.github.io/pokeDex/)
 
 # PokeDex
 
